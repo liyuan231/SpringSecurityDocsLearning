@@ -3,7 +3,7 @@ public class Test{
     public static void main(String[] args){
       String s = "liyuan";
     System.out.println(s);
-    System.out.println(2);
+    System.out.println(3);
     //
     }
 }
