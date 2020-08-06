@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF_TokenTest</title>
+</head>
+<body>
+<form method="post"
+      action="/transfer">
+    <input type="hidden"
+           name="_csrf"
+           value="4bfd1575-3ad1-4d21-96c7-4ef2d9f86721"/>
+    <input type="text"
+           name="amount"/>
+    <input type="text"
+           name="routingNumber"/>
+    <input type="hidden"
+           name="account"/>
+    <input type="submit"
+           value="Transfer"/>
+</form>
+</body>
+</html>
