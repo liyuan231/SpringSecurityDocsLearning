@@ -6,9 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * test
  *
- *
- *::wq
- *
  */
 @SpringBootApplication
 public class MyApplication {
